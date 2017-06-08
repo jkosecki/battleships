@@ -15,7 +15,7 @@ const (
 	// Cols defines number of cols of the game's board
 	Cols = 10
 
-	inputRegex          = "^[A-J](10|[1-9])"
+	inputRegex          = "^[A-J](10|[1-9])$"
 	horizontalDirection = 0
 	verticalDirection   = 1
 
